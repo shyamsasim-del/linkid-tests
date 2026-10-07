@@ -1,0 +1,27 @@
+{
+  "name": "linkid-tests",
+  "version": "1.0.0",
+  "description": "Unit tests for LinkID core library utilities - platform detection, URL validation, and icon mappings",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "linkid",
+    "unit-tests",
+    "platform-detection",
+    "jest"
+  ],
+  "author": "shyamsasim-del",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.8",
+    "@types/node": "^20.9.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "typescript": "^5.2.2"
+  }
+}
